@@ -1,0 +1,10 @@
+{
+  "namespace":"com.eraira",
+  "type":"record",
+  "name":"User",
+  "fields":[
+    {"name":"userName", "type":"string"},
+    {"name":"favNumber", "type":["int", "null"]},
+    {"name":"aBigNumber", "type":["bytes","null"], "logicalType":"decimal", "precision":4, "scale":2}
+  ]
+}
